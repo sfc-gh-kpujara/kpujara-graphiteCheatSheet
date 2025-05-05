@@ -33,6 +33,9 @@ gt co             # Pick a branch interactively
 
 ---
 
+```markdown
+---
+
 ### 🚧 Opening a Draft PR
 
 If you're not ready for review but want to push your feature branch and open a **draft pull request**, you can do:
@@ -41,6 +44,19 @@ If you're not ready for review but want to push your feature branch and open a *
 gt submit --draft
 ```
 
+This will:
+- Push your current branch
+- Open a draft PR on GitHub
+- Let teammates know it's a work-in-progress
+
+Once submitted, you can open the PR in your browser with:
+
+```bash
+gt pr
+```
+
+This command opens the pull request page for the current branch.
+```
 
 
 ### ✅ Best Practices
