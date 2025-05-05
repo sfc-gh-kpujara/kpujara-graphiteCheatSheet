@@ -85,6 +85,31 @@ gt submit
 
 This tells Graphite to sync its metadata with GitHub and update the PR state.
 
+### 🔁 Transition from Manual Push to Graphite Submit
+
+Previously, we used to commit and manually push like this:
+
+```bash
+git add .
+git commit -m "Some change"
+git push
+```
+
+Now, with Graphite, the recommended workflow is:
+
+```bash
+git add .
+git commit -m "Some change"
+gt submit
+```
+
+Graphite will:
+- Restack branches if needed
+- Push your branch and any stacked branches
+- Open or update all associated PRs
+- Preserve stack relationships
+
+
 #### 📌 If You Updated the **Base PR** (Lower in the stack):
 
 You must:
