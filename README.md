@@ -31,10 +31,7 @@ gt co main        # Switch to main
 gt co             # Pick a branch interactively
 ```
 
----
 
-```markdown
----
 
 ### 🚧 Opening a Draft PR
 
