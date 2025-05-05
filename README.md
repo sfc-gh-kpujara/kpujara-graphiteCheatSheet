@@ -39,7 +39,7 @@ If you're not ready for review but want to push your feature branch and open a *
 
 ```bash
 gt submit --draft
-
+```
 
 
 
