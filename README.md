@@ -33,6 +33,16 @@ gt co             # Pick a branch interactively
 
 ---
 
+### 🚧 Opening a Draft PR
+
+If you're not ready for review but want to push your feature branch and open a **draft pull request**, you can do:
+
+```bash
+gt submit --draft
+
+
+
+
 ### ✅ Best Practices
 
 - Always run `gt co main` before starting new work.
