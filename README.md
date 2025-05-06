@@ -73,6 +73,28 @@ This will:
 gt submit --stack --update-only
 ```
 
+### 🔄 Syncing a Sing Stack (Using `gt get`)
+
+If you're switching machines or syncing just one branch stack without affecting the rest of your repo, you can use:
+
+```bash
+gt get <branch-name>
+```
+
+This will:
+- Pull the latest changes for the stack starting at `<branch-name>`
+- Sync remote and local branches
+- Automatically restack if needed
+
+> ⚠️ If you have local uncommitted changes, you may need to commit, stash, or reset them before `gt get` can proceed.
+
+Example:
+
+```bash
+gt get kpujara-dump-jira-management-autoClose
+```
+
+---
 ---
 
 ### 🛠 If You Used `git push` Instead of `gt submit`
