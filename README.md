@@ -156,13 +156,14 @@ gt submit                  # Optional — syncs Graphite’s metadata
 
 ### 📌 Best Practices Summary
 
-| Action                                 | Recommended Command     |
-|----------------------------------------|--------------------------|
-| Start a new feature stack              | `gt co main && gt create` |
-| Open a draft PR                        | `gt submit --draft`     |
-| Submit a PR or stack                   | `gt submit`             |
-| Sync PRs after a manual git push       | `gt submit`             |
-| Restack child PRs after base changes   | `gt restack && gt submit` |
-| Visualize your stack                   | `gt ls` or `gt log`     |
-| Open PR in browser                     | `gt pr`                 |
+| Action                                 | Recommended Command              |
+|----------------------------------------|----------------------------------|
+| Start a new featur stack              | `gt co main && gt create`        |
+| Open a draft PR                        | `gt submit --draft`              |
+| Submit a PR or stack                   | `gt submit`                      |
+| Sync PRs after a manual git push       | `gt submit`                      |
+| Restack child PRs after base changes   | `gt restack && gt submit`        |
+| Sync a specific stack (on new machine) | `gt get <branch-name>`           |
+| Visualize your stack                   | `gt ls` or `gt log`              |
+| Open PR in browser                     | `gt pr`                          |
 
